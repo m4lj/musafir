@@ -24,8 +24,8 @@
         <MosqueCard :mosque="mosqueStore.nearest" :coords="locationStore.coords" hero />
       </div>
 
-      <!-- Mini Map -->
-      <div class="mx-4 mt-3 rounded-2xl overflow-hidden border border-midnight-700 cursor-pointer" @click="showFullMap = true">
+      <!-- Mini Map — unmount when full-screen modal is open to prevent Leaflet overlap -->
+      <div v-if="!showFullMap" class="mx-4 mt-3 rounded-2xl overflow-hidden border border-midnight-700 cursor-pointer" @click="showFullMap = true">
         <MosqueMap :mosques="mosqueStore.mosques" :coords="locationStore.coords" :height="120" />
       </div>
 

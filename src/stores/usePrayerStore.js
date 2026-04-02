@@ -1,12 +1,17 @@
 import { defineStore } from 'pinia'
-import { ref, computed } from 'vue'
+import { ref } from 'vue'
 import { usePrayer } from '@/composables/usePrayer.js'
 import { useLocationStore } from './useLocationStore.js'
+import { useSettingsStore } from './useSettingsStore.js'
+
+// Kuching default — Zon 8 (Kuching, Bau, Lundu, Sematan), Sarawak Malaysia
+const KUCHING_COORDS = { lat: 1.5533, lon: 110.3593 }
 
 export const usePrayerStore = defineStore('prayer', () => {
   const locationStore = useLocationStore()
+  const settingsStore = useSettingsStore()
 
-  const times = ref(null)         // { Fajr, Sunrise, Dhuhr, Asr, Maghrib, Isha } — Date objects
+  const times = ref(null)         // { fajr, sunrise, dhuhr, asr, maghrib, isha } — Date objects
   const nextPrayer = ref(null)    // { name, time }
   const countdown = ref('--:--')  // HH:MM:SS string
   const hijriDate = ref(null)     // { day, month, year, monthName }
@@ -15,9 +20,11 @@ export const usePrayerStore = defineStore('prayer', () => {
   let intervalId = null
 
   function init() {
-    if (!locationStore.coords) return
-    const { lat, lon } = locationStore.coords
-    const prayer = usePrayer({ lat, lon })
+    // Use GPS coords if available, otherwise fall back to Kuching default
+    const coords = locationStore.coords || KUCHING_COORDS
+    const { lat, lon } = coords
+    const method = settingsStore.settings.calculationMethod || 'JAKIM'
+    const prayer = usePrayer({ lat, lon }, method)
     times.value = prayer.times
     nextPrayer.value = prayer.nextPrayer
     hijriDate.value = prayer.hijriDate

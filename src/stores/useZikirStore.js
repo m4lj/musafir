@@ -1,6 +1,9 @@
 import { defineStore } from 'pinia'
-import { ref, watch } from 'vue'
+import { ref } from 'vue'
 import dayjs from 'dayjs'
+import dayOfYear from 'dayjs/plugin/dayOfYear'
+
+dayjs.extend(dayOfYear)
 
 const COUNTER_KEY = 'musafir:zikir'
 const LOG_KEY = 'musafir:zikir-log'

@@ -1,16 +1,20 @@
 <template>
   <div class="pb-6">
-    <!-- Location Banner -->
+    <!-- Location Banner — shown only if no GPS, but times still load via Kuching default -->
     <div v-if="!locationStore.coords" class="px-4 pt-3">
-      <div class="bg-midnight-800 border border-accent/30 rounded-2xl p-4">
-        <p class="text-sm text-gray-300 mb-3">Enable location to calculate accurate prayer times.</p>
-        <button class="w-full bg-accent text-white rounded-xl py-2.5 text-sm font-medium" @click="requestLoc">
-          📍 Enable Location
+      <div class="bg-midnight-800 border border-gold/30 rounded-2xl p-4 flex items-start gap-3">
+        <span class="text-xl">📍</span>
+        <div class="flex-1">
+          <p class="text-sm text-white font-medium">Showing times for Kuching (Zon 8)</p>
+          <p class="text-xs text-gray-400 mt-0.5">Kuching · Bau · Lundu · Sematan, Sarawak</p>
+        </div>
+        <button class="text-xs text-accent underline whitespace-nowrap mt-0.5" @click="requestLoc">
+          Use my location
         </button>
       </div>
     </div>
 
-    <template v-if="locationStore.coords && prayerStore.times">
+    <template v-if="prayerStore.times">
       <!-- Location + Hijri header -->
       <div class="px-4 pt-4 pb-2 flex items-start justify-between">
         <div>
@@ -82,9 +86,11 @@ const methods = ['JAKIM', 'MUIS', 'MWL', 'ISNA', 'Egypt', 'Karachi', 'Tehran', '
 
 const gregorianDate = computed(() => dayjs().format('dddd, D MMMM YYYY'))
 const locationLabel = computed(() => {
-  if (!locationStore.coords) return 'Unknown'
-  const { lat, lon } = locationStore.coords
-  return `${lat.toFixed(3)}, ${lon.toFixed(3)}`
+  if (locationStore.coords) {
+    const { lat, lon } = locationStore.coords
+    return `${lat.toFixed(3)}, ${lon.toFixed(3)}`
+  }
+  return 'Kuching, Sarawak (Zon 8)'
 })
 
 async function requestLoc() {
@@ -102,8 +108,7 @@ function selectMethod(method) {
 
 onMounted(() => {
   locationStore.restoreLastKnown()
-  if (locationStore.coords && !prayerStore.times) {
-    prayerStore.init()
-  }
+  // Always init — uses GPS if available, Kuching default otherwise
+  prayerStore.init()
 })
 </script>
