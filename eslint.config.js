@@ -14,7 +14,10 @@ export default [
     },
     rules: {
       'vue/multi-word-component-names': 'off',
+      'vue/max-attributes-per-line': 'off',
+      'vue/singleline-html-element-content-newline': 'off',
       'no-unused-vars': 'warn',
+      'no-empty': 'off',
     }
   },
   {
