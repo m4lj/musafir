@@ -1,0 +1,137 @@
+[
+  {
+    "id": "bismillah",
+    "title": "Bismillah",
+    "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+    "transliteration": "Bismillahir rahmanir rahim",
+    "translation": "In the name of Allah, the Most Gracious, the Most Merciful",
+    "source": "Before every action",
+    "count": 1
+  },
+  {
+    "id": "dua-eating",
+    "title": "Before Eating",
+    "arabic": "اللَّهُمَّ بَارِكْ لَنَا فِيمَا رَزَقْتَنَا وَقِنَا عَذَابَ النَّارِ",
+    "transliteration": "Allahumma barik lana fima razaqtana wa qina 'adhaban nar",
+    "translation": "O Allah, bless what You have provided us and protect us from the punishment of the fire.",
+    "source": "Before Eating (Ibn Sunnah)",
+    "count": 1
+  },
+  {
+    "id": "dua-after-eating",
+    "title": "After Eating",
+    "arabic": "الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مُسْلِمِينَ",
+    "transliteration": "Alhamdulillahil ladhi at'amana wa saqana wa ja'alana muslimin",
+    "translation": "Praise be to Allah who has fed us, given us drink, and made us Muslims.",
+    "source": "After Eating (Abu Dawud, Tirmidhi)",
+    "count": 1
+  },
+  {
+    "id": "dua-entering-masjid",
+    "title": "Entering Masjid",
+    "arabic": "اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+    "transliteration": "Allahumma iftah li abwaba rahmatik",
+    "translation": "O Allah, open for me the doors of Your mercy.",
+    "source": "Entering Masjid (Muslim)",
+    "count": 1
+  },
+  {
+    "id": "dua-leaving-masjid",
+    "title": "Leaving Masjid",
+    "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ مِن فَضْلِكَ",
+    "transliteration": "Allahumma inni as'aluka min fadlik",
+    "translation": "O Allah, I ask You of Your bounty.",
+    "source": "Leaving Masjid (Muslim)",
+    "count": 1
+  },
+  {
+    "id": "dua-waking",
+    "title": "Waking Up",
+    "arabic": "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ",
+    "transliteration": "Alhamdulillahil ladhi ahyana ba'da ma amatana wa ilayhin nushur",
+    "translation": "Praise be to Allah who gave us life after death (sleep) and to Him is the resurrection.",
+    "source": "Waking Up (Bukhari)",
+    "count": 1
+  },
+  {
+    "id": "dua-mirror",
+    "title": "Looking in Mirror",
+    "arabic": "اللَّهُمَّ أَنْتَ حَسَّنْتَ خَلْقِي فَحَسِّنْ خُلُقِي",
+    "transliteration": "Allahumma anta hassanta khalqi fa hassin khuluqi",
+    "translation": "O Allah, just as You made my physical form beautiful, beautify my character.",
+    "source": "Mirror Dua (Ahmad)",
+    "count": 1
+  },
+  {
+    "id": "dua-stress",
+    "title": "When Anxious",
+    "arabic": "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
+    "transliteration": "Hasbunallahu wa ni'mal wakil",
+    "translation": "Allah is sufficient for us, and He is the best disposer of affairs.",
+    "source": "Al-Imran 3:173",
+    "count": 1
+  },
+  {
+    "id": "hauqala",
+    "title": "No Power Except Allah",
+    "arabic": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
+    "transliteration": "La hawla wa la quwwata illa billah",
+    "translation": "There is no might nor power except with Allah.",
+    "source": "Bukhari, Muslim — treasure of Paradise",
+    "count": 1
+  },
+  {
+    "id": "innalillahi",
+    "title": "Inna Lillahi",
+    "arabic": "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
+    "transliteration": "Inna lillahi wa inna ilayhi raji'un",
+    "translation": "Indeed, to Allah we belong and to Him we shall return.",
+    "source": "Al-Baqarah 2:156",
+    "count": 1
+  },
+  {
+    "id": "dua-rain",
+    "title": "When it Rains",
+    "arabic": "اللَّهُمَّ صَيِّبًا نَافِعًا",
+    "transliteration": "Allahumma sayyiban nafi'a",
+    "translation": "O Allah, may it be a beneficial rain.",
+    "source": "During Rain (Bukhari)",
+    "count": 1
+  },
+  {
+    "id": "dua-parents",
+    "title": "For Parents",
+    "arabic": "رَّبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا",
+    "transliteration": "Rabbir hamhuma kama rabbayani saghira",
+    "translation": "My Lord, have mercy on them as they raised me when I was small.",
+    "source": "Al-Isra 17:24",
+    "count": 1
+  },
+  {
+    "id": "dua-knowledge",
+    "title": "For Knowledge",
+    "arabic": "رَّبِّ زِدْنِي عِلْمًا",
+    "transliteration": "Rabbi zidni 'ilma",
+    "translation": "My Lord, increase me in knowledge.",
+    "source": "Ta-Ha 20:114",
+    "count": 1
+  },
+  {
+    "id": "dua-health",
+    "title": "For Health",
+    "arabic": "اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ عَافِنِي فِي بَصَرِي",
+    "transliteration": "Allahumma 'afini fi badani, Allahumma 'afini fi sam'i, Allahumma 'afini fi basari",
+    "translation": "O Allah, grant me health in my body. O Allah, grant me health in my hearing. O Allah, grant me health in my sight.",
+    "source": "Morning/Evening (Abu Dawud)",
+    "count": 3
+  },
+  {
+    "id": "dua-dunya-akhirah",
+    "title": "Dunya & Akhirah",
+    "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+    "transliteration": "Rabbana atina fid dunya hasanatan wa fil akhirati hasanatan wa qina 'adhaban nar",
+    "translation": "Our Lord, give us good in this world and good in the Hereafter, and protect us from the punishment of the Fire.",
+    "source": "Al-Baqarah 2:201 — most comprehensive dua",
+    "count": 1
+  }
+]

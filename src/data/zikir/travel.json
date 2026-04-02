@@ -1,0 +1,74 @@
+[
+  {
+    "id": "travel-start",
+    "title": "Starting a Journey",
+    "arabic": "اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَٰذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ وَإِنَّا إِلَىٰ رَبِّنَا لَمُنقَلِبُونَ",
+    "transliteration": "Allahu akbar, Allahu akbar, Allahu akbar. Subhanalladhi sakhkhara lana hadha wa ma kunna lahu muqrinin, wa inna ila rabbina lamunqalibun.",
+    "translation": "Allah is the Greatest (×3). Glory be to the One who has put this in our service, for we could not have done it ourselves. Indeed, we are returning to our Lord.",
+    "source": "Journey Dua (Muslim, Abu Dawud)",
+    "count": 1
+  },
+  {
+    "id": "travel-safety",
+    "title": "Safety in Travel",
+    "arabic": "اللَّهُمَّ إِنَّا نَسْأَلُكَ فِي سَفَرِنَا هَٰذَا الْبِرَّ وَالتَّقْوَىٰ، وَمِنَ الْعَمَلِ مَا تَرْضَىٰ",
+    "transliteration": "Allahumma inna nas'aluka fi safarina hadhal birra wat taqwa, wa minal 'amali ma tarda",
+    "translation": "O Allah, we ask You for goodness and piety in this journey, and for deeds that please You.",
+    "source": "Journey Dua (Muslim)",
+    "count": 1
+  },
+  {
+    "id": "entering-city",
+    "title": "Entering a City",
+    "arabic": "اللَّهُمَّ رَبَّ السَّمَاوَاتِ السَّبْعِ وَمَا أَظْلَلْنَ وَرَبَّ الْأَرَضِينَ السَّبْعِ وَمَا أَقْلَلْنَ أَسْأَلُكَ خَيْرَ هَٰذِهِ الْقَرْيَةِ",
+    "transliteration": "Allahumma rabas samawatis sab'i wa ma azlalna, wa rabbal aradinas sab'i wa ma aqlan, as'aluka khayra hadhihil qaryah",
+    "translation": "O Allah, Lord of the seven heavens and all they overshadow, Lord of the seven earths and all they support — I ask You for the goodness of this city.",
+    "source": "Entering a New City (Ibn Sunnah)",
+    "count": 1
+  },
+  {
+    "id": "boarding-vehicle",
+    "title": "Boarding a Vehicle",
+    "arabic": "بِسْمِ اللَّهِ، الْحَمْدُ لِلَّهِ، سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَٰذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ",
+    "transliteration": "Bismillah, alhamdulillah. Subhanalladhi sakhkhara lana hadha wa ma kunna lahu muqrinin.",
+    "translation": "In the name of Allah. All praise to Allah. Glory be to the One who has put this in our service.",
+    "source": "Boarding Dua (Abu Dawud, Tirmidhi)",
+    "count": 1
+  },
+  {
+    "id": "return-home",
+    "title": "Returning Home",
+    "arabic": "آيِبُونَ تَائِبُونَ عَابِدُونَ لِرَبِّنَا حَامِدُونَ",
+    "transliteration": "Ayibun, ta'ibun, 'abidun, lirabbina hamidun",
+    "translation": "We return, repenting, worshipping, and praising our Lord.",
+    "source": "Return Journey (Bukhari, Muslim)",
+    "count": 1
+  },
+  {
+    "id": "overnight-stay",
+    "title": "New Place / Hotel",
+    "arabic": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِن شَرِّ مَا خَلَقَ",
+    "transliteration": "A'udhu bikalimatiLlahit tammati min sharri ma khalaq",
+    "translation": "I seek refuge in the perfect words of Allah from the evil of what He has created.",
+    "source": "Staying in a New Place (Muslim)",
+    "count": 3
+  },
+  {
+    "id": "flight-turbulence",
+    "title": "During Difficulty",
+    "arabic": "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
+    "transliteration": "Hasbunallahu wa ni'mal wakil",
+    "translation": "Allah is sufficient for us, and He is the best disposer of affairs.",
+    "source": "Al-Imran 3:173",
+    "count": 1
+  },
+  {
+    "id": "seaflight-dua",
+    "title": "Sea / Air Travel",
+    "arabic": "بِسْمِ اللَّهِ مَجْرَاهَا وَمُرْسَاهَا ۚ إِنَّ رَبِّي لَغَفُورٌ رَّحِيمٌ",
+    "transliteration": "Bismillahi majraha wa mursaha, inna rabbi la ghafurun rahim",
+    "translation": "In the name of Allah is its sailing and its anchorage. Indeed, my Lord is Forgiving and Merciful.",
+    "source": "Hud 11:41 — recited on boarding a vessel",
+    "count": 1
+  }
+]

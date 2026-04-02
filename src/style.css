@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply bg-midnight-950 text-white font-sans antialiased;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .arabic {
+    font-family: 'Scheherazade New', serif;
+    direction: rtl;
+    text-align: right;
+  }
+}
+
+@layer utilities {
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom, 0);
+  }
+}
